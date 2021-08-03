@@ -32,6 +32,26 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+.tex sub, .latex sub, .latex sup {
+      text-transform: uppercase;
+    }
+
+    .tex sub, .latex sub {
+      vertical-align: -0.5ex;
+      margin-left: -0.1667em;
+      margin-right: -0.125em;
+    }
+
+    .tex, .latex, .tex sub, .latex sub {
+      font-size: 1em;
+    }
+
+    .latex sup {
+      font-size: 0.85em;
+      vertical-align: 0.15em;
+      margin-left: -0.36em;
+      margin-right: -0.15em;
+    }
 </style>
 
 
@@ -359,21 +379,25 @@ a:active {
 <table class="table">
   <thead>
     <tr>
-      <th colspan="3" class="text-center"><h4>Massive Open Online Course(MOOC)</h4></th>
+      <th colspan="3" class="text-center"><h4>Skills(MOOC)</h4></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
+      <th scope="row">Programming Language</th>
+      <td>Python, C</td>
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
+      <th scope="row">Environment</th>
+      <td>Windows, Linux</td>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
+      <th scope="row">Web</th>
+      <td>Html, css, JavaScript</td>
+    </tr>
+	<tr>
+      <th scope="row">Typesetting</th>
+      <td><p><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></p></td>
     </tr>
   </tbody>
 </table>
